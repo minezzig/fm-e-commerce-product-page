@@ -3,7 +3,7 @@
 This is a solution to the [E-commerce product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 
-<img src="./design/active-states-basket-filled.jpg alt="desktop" width="400"/>
+<img src="./design/active-states-basket-filled.jpg" alt="desktop" width="400"/>
 
 ## Table of contents
  
