@@ -22,7 +22,7 @@ function Header() {
 
   return (
     <div className="flex w-full items-center justify-between p-5">
-      {overlay && <div className="absolute inset-0 bg-overlay/70"></div>}
+      {overlay && <div className="absolute inset-0 bg-overlay/70 z-10"></div>}
 
       <div className="flex gap-5">
         <img

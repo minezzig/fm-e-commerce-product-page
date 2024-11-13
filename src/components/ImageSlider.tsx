@@ -37,7 +37,7 @@ const ImageSlider = ({ item, lightboxOpen }: ImageSliderProps) => {
       <div className="relative">
         <div
           onClick={toggleLightbox}
-          className={`cursor-pointer ${lightboxOpen && "pointer-events-none"} pointer-events-none md:pointer-events-auto`}
+          className={`cursor-pointer ${lightboxOpen ? "md:pointer-events-none" : "md:pointer-events-auto"} pointer-events-none `}
         >
           <img src={selectedImg} alt="1" className="md:rounded-lg" />
         </div>
